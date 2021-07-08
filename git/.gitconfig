@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Raghav
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff $LOCAL $REMOTE"
+[alias]
+	s = status
+    df = diff
