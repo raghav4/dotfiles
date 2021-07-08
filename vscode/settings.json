@@ -1,0 +1,49 @@
+{
+    "workbench.colorTheme": "GitHub Dark",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Fira Code",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "workbench.productIconTheme": "fluent-icons",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "yaml.schemas": {
+      "file:///Users/raghavsharma/.vscode/extensions/atlassian.atlascode-2.9.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.jira.enabled": true,
+    "atlascode.jira.jqlList": [
+      {
+        "id": "c255934b-6a79-4b9c-8654-a2851a1fc9dd",
+        "enabled": true,
+        "name": "My oriserve Issues",
+        "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+        "siteId": "6a4a806f-ec31-468c-8f12-f694535d2130",
+        "monitor": true
+      }
+    ],
+    "editor.inlineHints.fontFamily": "Menlo, Monaco, 'Courier New', monospaceFira Code",
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "cSpell.userWords": [
+      "Parens",
+      "Raghav",
+      "chakra",
+      "plusplus"
+    ],
+    "editor.quickSuggestions": null,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": "comment",
+            "settings": {
+              "fontStyle": "italic"
+            }
+          }
+        ]
+      },
+      "redhat.telemetry.enabled": true,
+      "files.autoSave": "afterDelay"
+}
