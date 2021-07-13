@@ -8,3 +8,7 @@
 [alias]
 	s = status
     df = diff
+	
+[core]
+	excludesfile = /Users/raghavsharma/.gitignore_global
+	ignorecase = false
